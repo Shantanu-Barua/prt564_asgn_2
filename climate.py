@@ -50,7 +50,7 @@ fig, axes = plt.subplots(1, 2, figsize=(16, 6))
 ### --- Plot 1: Weather Index by Month --- ###
 sns.barplot(
     x='Month', y='Weather_Index', hue='Month', data=monthly_avg,
-    ax=axes[0], palette='Blues', legend=False
+    ax=axes[0], palette='Blues', legend=False, order = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 )
 axes[0].set_title('Average Weather Index by Month')
 axes[0].set_xlabel('Month')

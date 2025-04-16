@@ -14,9 +14,14 @@ print(df_avn.info)
 # Group by Age and Region to get total death counts
 grouped = df_avn.groupby(["Age", "Region"])['Death'].sum().reset_index()
 
-# Plot1: Age on x-axis, Death count as height, colored by Region
+### Plot1: Age on x-axis, Death count as height, colored by Region ###
 plt.figure(figsize=(12, 6))
-sns.barplot(data=grouped, x='Age', y='Death', hue='Region', palette='Set2')
+bar = sns.barplot(data=grouped, x='Age', y='Death', hue='Region', palette='tab20')
+
+# Add value labels on top of each bar
+for container in bar.containers:
+    bar.bar_label(container, padding=3, fontsize=9)
+
 plt.title('Death Count by Age Group and Region')
 plt.ylabel('Total Deaths')
 plt.xticks(rotation=45)
@@ -29,13 +34,25 @@ df_ym['Year_mon'] = df_ym['Year'] + (df_ym['Month'] - 1) / 12
 df_ym = df_ym[[col for col in df_ym.columns if col != 'Death'] + ['Death']]
 # print(df_ym)
 
-# Plot2: Show death count by continuous year_month value
+### Plot2: Show death count by continuous year_month value ###
 monthly_deaths = df_ym.groupby('Year_mon')['Death'].sum().reset_index()
 
+# Extract min and max year for gridline placement
+min_year = int(np.floor(monthly_deaths['Year_mon'].min()))
+max_year = int(np.ceil(monthly_deaths['Year_mon'].max()))
+year_ticks = np.arange(min_year, max_year + 1)
+
+# Plot graph space
 plt.figure(figsize=(12, 6))
 sns.lineplot(data=monthly_deaths, x='Year_mon', y='Death', marker='o')
-plt.title('Monthly Death Count Over Time')
-plt.xlabel('Year-Month (Continuous)')
+
+# Add vertical gridlines at each year
+plt.xticks(ticks=year_ticks)
+plt.grid(True, which='both', axis='both')
+plt.axhline(0, color='black', linewidth=0.5)
+
+plt.title('Death Count Over Time')
+plt.xlabel('Year-Month')
 plt.ylabel('Total Deaths')
 plt.grid(True)
 plt.tight_layout()

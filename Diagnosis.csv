@@ -1,0 +1,145 @@
+Age,Year,Month,Region,County,Diagnosis,death
+Adult ,2012,1,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2012,6,East of England,Suffolk,Egg Peritonitis & Salpingitis,1
+Adult ,2012,2,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2012,2,Scotland,Lothian,Egg Peritonitis & Salpingitis,2
+Adult ,2012,8,East of Midlands,Leicestershire and Rutland,Egg Peritonitis & Salpingitis,1
+Adult ,2012,10,Scotland,Lothian,Egg Peritonitis & Salpingitis,1
+Adult ,2013,1,South East,Surrey,Egg Peritonitis & Salpingitis,1
+Adult ,2013,2,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2013,4,North West,Cumbria,Egg Peritonitis & Salpingitis,1
+Adult ,2013,7,North West,Lancashire,Egg Peritonitis & Salpingitis,1
+Adult ,2013,7,South East,All county,Egg Peritonitis & Salpingitis,1
+Adult ,2013,8,South East,East Sussex,Egg Peritonitis & Salpingitis,1
+Adult ,2013,10,East of England,Essex,Egg Peritonitis & Salpingitis,1
+Adult ,2014,1,Wales,Ceredigion,Egg Peritonitis & Salpingitis,1
+Adult ,2014,6,Scotland,Ayrshire,Egg Peritonitis & Salpingitis,1
+Adult ,2015,10,North West,Lancashire,Egg Peritonitis & Salpingitis,1
+Adult ,2018,1,Scotland,Ayrshire,Egg Peritonitis & Salpingitis,1
+Adult ,2018,8,Scotland,Lothian,Egg Peritonitis & Salpingitis,1
+Adult ,2018,9,South West,Dorset,Egg Peritonitis & Salpingitis,1
+Adult ,2019,6,South West,Devon,Egg Peritonitis & Salpingitis,1
+Adult ,2020,8,East of England,Essex,Egg Peritonitis & Salpingitis,1
+Adult ,2020,9,London,Greater London,Egg Peritonitis & Salpingitis,1
+Adult ,2021,5,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,5,Scotland,Ayrshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,5,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,8,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,6,West Midlands,Staffordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,7,West Midlands,Staffordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2021,9,Wales,South Wales,Egg Peritonitis & Salpingitis,1
+Adult ,2021,7,Wales,Ceredigion,Egg Peritonitis & Salpingitis,1
+Adult ,2022,4,Wales,Carmarthenshire,Egg Peritonitis & Salpingitis,1
+Adult ,2022,8,East of England,Essex,Egg Peritonitis & Salpingitis,1
+Adult ,2022,10,Scotland,North Eastern Scotland,Egg Peritonitis & Salpingitis,1
+Adult ,2022,11,Wales,Ceredigion,Egg Peritonitis & Salpingitis,1
+Adult ,2023,5,East of England,Essex,Egg Peritonitis & Salpingitis,1
+Adult ,2024,7,Wales,Ceredigion,Egg Peritonitis & Salpingitis,1
+Adult ,2024,9,Scotland,East Central,Egg Peritonitis & Salpingitis,1
+Adult ,2024,8,East of England,Hertfordshire,Egg Peritonitis & Salpingitis,1
+Adult ,2024,12,East of England,Essex,Egg Peritonitis & Salpingitis,1
+0 - 7 days,2013,1,West Midlands,Staffordshire,Colisepticaemia,1
+0 - 7 days,2014,5,West Midlands,Staffordshire,Colisepticaemia,1
+0 - 7 days,2016,5,Scotland,Ayrshire,Colisepticaemia,1
+0 - 7 days,2017,4,Scotland,Ayrshire,Colisepticaemia,1
+0 - 7 days,2017,9,Scotland,Ayrshire,Colisepticaemia,1
+Adult ,2012,12,North West,Greater Manchester,Colisepticaemia,1
+Adult ,2013,6,South West,Gloucestershire,Colisepticaemia,1
+Adult ,2013,10,Scotland,Dumfries & Galloway,Colisepticaemia,1
+Adult ,2018,8,Scotland,Ayrshire,Colisepticaemia,1
+Adult ,2019,7,East of England,Suffolk,Colisepticaemia,1
+Adult ,2019,12,Yorkshire and The Humber,West Yorkshire,Colisepticaemia,1
+Adult ,2020,6,Yorkshire and The Humber,West Yorkshire,Colisepticaemia,1
+Adult ,2022,12,South West,Northern Somerset & South Gloucestershire,Colisepticaemia,1
+Immature,2012,5,West Midlands,Warwickshire,Colisepticaemia,1
+Immature,2012,8,West Midlands,Warwickshire,Colisepticaemia,2
+Immature,2012,8,Scotland,Lothian,Colisepticaemia,1
+Immature,2012,8,East of England,Hertfordshire,Colisepticaemia,1
+Immature,2012,6,Scotland,Lothian,Colisepticaemia,1
+Immature,2012,10,Scotland,Fife,Colisepticaemia,2
+Immature,2013,5,West Midlands,Warwickshire,Colisepticaemia,1
+Immature,2013,6,Scotland,Ayrshire,Colisepticaemia,2
+Immature,2013,10,Scotland,Ayrshire,Colisepticaemia,2
+Immature,2014,2,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2015,4,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2016,6,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2016,11,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2017,4,Scotland,Ayrshire,Colisepticaemia,3
+Immature,2017,7,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2018,8,Scotland,Ayrshire,Colisepticaemia,1
+Immature,2024,3,East Midlands,Northamptonshire,Colisepticaemia,1
+0 - 7 days,2012,9,West Midlands,Warwickshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2014,1,West Midlands,Warwickshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2016,1,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2016,3,Scotland,Ayrshire,Yolk sac infection/omphalitis,2
+0 - 7 days,2016,4,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2016,9,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2016,11,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2017,1,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2017,3,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2017,4,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+0 - 7 days,2017,8,Scotland,Ayrshire,Yolk sac infection/omphalitis,3
+0 - 7 days,2017,10,Scotland,Ayrshire,Yolk sac infection/omphalitis,2
+0 - 7 days,2020,7,Scotland,North Eastern Scotland,Yolk sac infection/omphalitis,1
+Immature,2013,6,Scotland,Ayrshire,Yolk sac infection/omphalitis,3
+Immature,2013,7,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2013,8,Scotland,Ayrshire,Yolk sac infection/omphalitis,2
+Immature,2013,9,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2013,12,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2014,7,Scotland,Lothian,Yolk sac infection/omphalitis,1
+Immature,2016,3,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2016,11,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2017,1,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2017,2,Scotland,Ayrshire,Yolk sac infection/omphalitis,1
+Immature,2012,8,East of England,Hertfordshire,Broiler ascites,3
+Immature,2012,9,East of England,Hertfordshire,Broiler ascites,3
+Immature,2013,8,East of England,Hertfordshire,Broiler ascites,1
+Immature,2013,8,Scotland,Ayrshire,Broiler ascites,1
+Immature,2013,9,East of England,Hertfordshire,Broiler ascites,1
+Immature,2013,10,South East,Kent,Broiler ascites,1
+Immature,2013,11,Wales,Ceredigion,Broiler ascites,1
+Immature,2015,1,East of England,Hertfordshire,Broiler ascites,1
+Immature,2015,4,Scotland,Ayrshire,Broiler ascites,2
+Immature,2016,12,Scotland,Ayrshire,Broiler ascites,1
+Immature,2017,3,Scotland,Ayrshire,Broiler ascites,2
+Immature,2017,7,Scotland,Ayrshire,Broiler ascites,2
+Immature,2017,8,Scotland,Ayrshire,Broiler ascites,1
+Immature,2019,2,East of England,Hertfordshire,Broiler ascites,1
+0 - 7 days,2020,7,Scotland,North Eastern Scotland,Red Mite,1
+Adult ,2012,8,Scotland,Lothian,Red Mite,1
+Adult ,2013,1,South West,Gloucestershire,Red Mite,1
+Adult ,2013,9,South West,Somerset excl North,Red Mite,1
+Adult ,2014,8,East of England,Hertfordshire,Red Mite,1
+Adult ,2015,7,London,Greater London,Red Mite,1
+Adult ,2016,8,Scotland,Ayrshire,Red Mite,1
+Adult ,2017,9,South West,Somerset excl North,Red Mite,1
+Adult ,2018,7,East of England,Cambridgeshire,Red Mite,1
+Adult ,2018,7,Wales,South Wales,Red Mite,1
+Adult ,2020,8,East of England,Essex,Red Mite,1
+Adult ,2020,8,South West,Northern Somerset & South Gloucestershire,Red Mite,1
+Adult ,2021,6,South West,Devon,Red Mite,1
+Adult ,2021,9,Scotland,Dumfries & Galloway,Red Mite,1
+Adult ,2021,9,West Midlands,Shropshire,Red Mite,1
+Adult ,2022,7,East of England,Essex,Red Mite,2
+Adult ,2024,7,Wales,Ceredigion,Red Mite,1
+Immature,2012,8,South West,Devon,Red Mite,1
+Immature,2013,7,East of England,Cambridgeshire,Red Mite,1
+Immature,2013,8,East of England,Essex,Red Mite,1
+Immature,2015,7,East Midlands,Lincolnshire,Red Mite,1
+Adult,2012,1,South East,Berkshire,Marek's Disease,1
+Adult,2012,8,South East,West Sussex,Marek's Disease,1
+Adult,2012,10,East of England,Essex,Marek's Disease,1
+Adult,2012,10,East Midlands,Lincolnshire,Marek's Disease,1
+Adult,2012,4,West Midlands,Worcestershire,Marek's Disease,1
+Adult,2012,11,Yorkshire and The Humber,North Yorkshire,Marek's Disease,1
+Adult,2013,12,Scotland,Scottish Borders,Marek's Disease,1
+Adult,2013,11,East Midlands,Northamptonshire,Marek's Disease,1
+Adult,2014,11,Wales,North East Wales,Marek's Disease,1
+Adult,2018,4,South West,Somerset excl North,Marek's Disease,1
+Adult,2021,2,South West,Somerset excl North,Marek's Disease,1
+Adult,2021,8,Scotland,Ayrshire,Marek's Disease,1
+Adult,2021,8,South West,Cornwall and Isles of Scilly,Marek's Disease,1
+Adult,2024,3,Wales,South Wales,Marek's Disease,1
+Adult,2024,4,East of England,Essex,Marek's Disease,1
+Immature,2012,11,North West,Lancashire,Marek's Disease,1
+Immature,2013,9,Yorkshire and The Humber,North Yorkshire,Marek's Disease,1

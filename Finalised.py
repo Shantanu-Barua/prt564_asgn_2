@@ -289,3 +289,19 @@ plt.show()
 #------------
 # References
 #------------
+#standardising data in pandas:
+#https://www.geeksforgeeks.org/how-to-standardize-data-in-a-pandas-dataframe/
+
+#Interquartile range:
+#https://machinelearningmastery.com/how-to-use-statistics-to-identify-outliers-in-data/
+#https://www.geeksforgeeks.org/detect-and-remove-the-outliers-using-python/
+
+#Interactions
+#https://towardsdatascience.com/feature-interactions-524815abec81/
+#https://www.kaggle.com/code/ritzig/feature-interaction-tutorial-pdp-shap-ensemble-mod
+#https://stackoverflow.com/questions/67859225/creating-interaction-terms-in-python
+
+#Visualisations
+#https://yulab-smu.top/biomedical-knowledge-mining-book/enrichplot.html
+#https://scikit-learn.org/stable/auto_examples/linear_model/plot_ridge_path.html
+#https://www.researchgate.net/figure/Explainability-analysis-A-Bar-graph-displaying-Ridge-Regression-coefficients-B-SHAP_fig3_380531463

@@ -158,7 +158,7 @@ def remove_outliers(df): #defines a function that takes in the dataframe "df"
     Q1 = df.quantile(0.25) #lower quartile for each columns
     Q3 = df.quantile(0.75) #upper quartile for each function
     IQR = Q3 - Q1 #spread of the middle 50% of the data
-    # Remove outliers that are outside the range [Q1 - 1.5 * IQR, Q3+1.5*IQR]
+    
     #identifies outliers in any column of each row by creating a boolean data frame where 'True'
     #means that there is an outlier
     df_filtered = df[~((df < (Q1 - 1.5 * IQR)) | (df > (Q3 + 1.5 * IQR))).any(axis=1)] 

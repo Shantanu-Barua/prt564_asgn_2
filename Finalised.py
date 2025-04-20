@@ -291,6 +291,7 @@ plt.show()
 #Temp vs. Deaths based on the region --> Facet Grid
 sns.lmplot(data=full_df, x='Temperature', y='deaths_x', hue='Region_Code', col_wrap=4, height=4, scatter_kws={'alpha':0.5})
 plt.subtitle("Regression lines for Death vs. Temp per Region")
+plt.tight_layout()
 plt.show()
 
 #Death by season --> Box plot
@@ -300,6 +301,7 @@ plt.title("Seasonal Variation in deaths")
 plt.xlabel("Season (1=Winter, 2=Spring, 3=Summer, 4=Autmn)")
 plt.ylabel("Deaths")
 plt.grid(True)
+plt.tight_layout()
 plt.show()
 
 #------------

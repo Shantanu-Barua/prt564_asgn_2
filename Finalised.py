@@ -267,12 +267,14 @@ print("MAE: ", mean_absolute_error(y_test, y_predict_ridge)) #mean absolute erro
 
 #Actual vs. predicted plot (Linear regression) --> scatter plot
 plt.figure(figsize=(8, 6))
-sns.scatterplot(x=y_test, y=y_predict, alpha=0.6)
+sns.scatterplot(x=y_test, y=y_predict, label='Linear Regression', alpha=0.5, color='blue')
+sns.scatterplot(x=y_test, y=y_predict_ridge, label='Ridge Regression', alpha=0.5, color='red')
 plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], '--r', linewidth=2)
 plt.xlabel("Actal deaths")
 plt.ylabel("Predicted Deaths")
-plt.title("Linear regression Actual vs predicted")
+plt.title("Linear regression and Ridge regression: Actual vs predicted")
 plt.grid(True)
+plt.legend()
 plt.tight_layout()
 plt.show()
 

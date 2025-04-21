@@ -1,3 +1,5 @@
+#Getting Data and Packages
+#----------------
 #Import Packages
 import pandas as pd
 import numpy as np
@@ -11,28 +13,26 @@ from sklearn.impute import SimpleImputer
 from scipy import stats
 
 #load dataset
+#Ensure that you open the folder where the databases are situated in
+#the visual studio code explorer
 full_df = pd.read_excel("AvianDataset.xlsx", sheet_name=['Number', 'Proportion'])
 
 number_df = full_df['Number'] #number spread sheet in xlsx file
 proportion_df = full_df['Proportion'] #proportion spreadsheet in xlsx file
 
-#Preprocessing the data
-#-----------------------
-#drop columns that are highly correlated to avoid data leackage
-number_df = number_df.drop(columns=['Adult', 'Immature'])
-
-#Seasons Column for Exploratory analysis
+#Preprocessing
+#-------------
+#Seasons Column for Exploratory analysis (used in the boxplot)
 number_df['Seasons'] = number_df['Month'] % 12 // 3 + 1
 
-#
-
 #define x and y values
-x_num = number_df.iloc[:,:-1].values
-x_prop = proportion_df.iloc[:,:-1].values
-y = number_df.iloc[:,-1].values
+x_num = number_df.iloc[:,:-1].values #all columns asside from the target (last column)
+x_prop = proportion_df.iloc[:,:-1].values #all columns asside from the target (last column)
+y = number_df.iloc[:,-1].values #Onlt the target variable (Last column)
 
-
-# Split train and test data
+#Training Data
+#--------------
+# Split train and test data (80% training, 20% testing)
 x_train_prop, x_test_prop, y_train_prop, y_test_prop = train_test_split(x_prop, y, test_size=0.2, random_state=42)
 x_train_num, x_test_num, y_train_num, y_test_num = train_test_split(x_num, y, test_size=0.2, random_state=42)
 
@@ -65,7 +65,7 @@ r2_prop = r2_score(y_test_prop, y_predict_prop)
 mse_prop = mean_squared_error(y_test_prop, y_predict_prop)
 mae_prop = mean_absolute_error(y_test_prop, y_predict_prop)
 
-#print proprtion sheet performance
+#print proprtion sheet model performance metrics
 print("---- Ridge Regression Model: Proportion ----")
 print("R^2 score: ", r2_prop)
 print("MSE: ", mse_prop) 
@@ -84,7 +84,7 @@ r2_num = r2_score(y_test_num, y_predict_num)
 mse_num = mean_squared_error(y_test_num, y_predict_num)
 mae_num = mean_absolute_error(y_test_num, y_predict_num)
 
-#print number sheet performance 
+#print number sheet model performance metrics
 print("---- Ridge Regression Model: Number ----")
 print("R^2 score: ", r2_num)
 print("MSE: ", mse_num) 
@@ -100,11 +100,12 @@ slope, intercept, r_value, p_value, std_err = stats.linregress(y_test_num, y_pre
 x_value_num = np.linspace(min(y_test_num), max(y_test_num), 100)
 y_value_num = slope * x_value_num + intercept
 plt.plot(x_value_num, y_value_num, color='pink', linestyle='--', label='Regression Line')
-#style plot
+#style plot by adding lable and titles
 plt.xlabel("Actual Total Deaths")
 plt.ylabel("Predicted Toal Deaths")
 plt.title("Ridge Regression: Avtual vs Predicted Deaths (Number Sheet)")
 plt.legend()
+#Display R-square, MAE and MSE on the plot
 plt.text(x=min(y_test_num), y=max(y_test_num)*0.85, 
          s=f"R²: {r2_score(y_test_num, y_predict_num)}\nMAE: {mae_num}\nMSE: {mse_num}", 
          bbox=dict(facecolor='white', alpha=0.6))
@@ -120,11 +121,12 @@ slope, intercept, r_value, p_value, std_err = stats.linregress(y_test_prop, y_pr
 x_value_prop = np.linspace(min(y_test_prop), max(y_test_prop), 100)
 y_value_prop = slope * x_value_prop + intercept
 plt.plot(x_value_prop, y_value_prop, color='green', linestyle='--', label='Regression Line')
-#style plot
+#style plot by adding titles and labels
 plt.xlabel("Actual Total Deaths")
 plt.ylabel("Predicted Toal Deaths")
 plt.title("Ridge Regression: Avtual vs Predicted Deaths (Number Sheet)")
 plt.legend()
+#Display R-square, MAE and MSE on the plot
 plt.text(x=min(y_test_prop), y=max(y_test_prop)*0.85, 
          s=f"R²: {r2_score(y_test_prop, y_predict_prop)}\nMAE: {mae_prop}\nMSE: {mse_prop}", 
          bbox=dict(facecolor='white', alpha=0.6))

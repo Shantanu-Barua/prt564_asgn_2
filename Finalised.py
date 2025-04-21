@@ -133,14 +133,35 @@ plt.tight_layout()
 plt.show()
 
 #Risidual plot num --> diagnose patterns and errors (scattered randomly means unbiased)
+residuals = y_test_prop - y_predict_prop
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x=y_predict_prop, y=residuals, alpha=0.7)
+plt.axhline(0, color='green', linestyle='--')  # Reference line at 0
+plt.title("Ridge Regression Residual Plot (Proportion Sheet)")
+plt.xlabel("Predicted Total Deaths")
+plt.ylabel("Residuals")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
 
+#Risidual plot num --> diagnose patterns and errors (scattered randomly means unbiased)
+residuals = y_test_num - y_predict_num
+plt.figure(figsize=(8, 6))
+sns.scatterplot(x=y_predict_num, y=residuals, alpha=0.7)
+plt.axhline(0, color='pink', linestyle='--')  # Reference line at 0
+plt.title("Ridge Regression Residual Plot (Number Sheet)")
+plt.xlabel("Predicted Total Deaths")
+plt.ylabel("Residuals")
+plt.grid(True)
+plt.tight_layout()
+plt.show()
 
-# #Deaths by season --> box plot
-# plt.figure(figsize=(8, 6))
-# sns.boxplot(data=number_df, x='Seasons', y='Total death')
-# plt.title("Seasonal Variation in Deaths")
-# plt.xlabel("Season (1=Winter, 2=Spring, 3=Summer, 4=Autumn)")
-# plt.ylabel("Deaths")
-# plt.grid(True)
-# plt.tight_layout()
-# plt.show()
+#Deaths by season --> box plot
+plt.figure(figsize=(8, 6))
+sns.boxplot(data=number_df, x='Seasons', y='Total death')
+plt.title("Seasonal Variation in Deaths")
+plt.xlabel("Season (1=Winter, 2=Spring, 3=Summer, 4=Autumn)")
+plt.ylabel("Deaths")
+plt.grid(True)
+plt.tight_layout()
+plt.show()

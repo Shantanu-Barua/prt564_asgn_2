@@ -56,7 +56,7 @@ x_test_num = scale.transform(x_test_num)
 #Ridge regression - Proportion sheet
 #-------------------------------------
 #creating ridge mondel for the proportions sheet in the xlsx file
-ridge_model_prop = Ridge(alpha=1.0)
+ridge_model_prop = Ridge()
 ridge_model_prop.fit(x_train_prop, y_train_prop)
 y_predict_prop = ridge_model_prop.predict(x_test_prop)
 
@@ -75,7 +75,7 @@ print("MAE: ", mae_prop)
 #Ridge regression - Number sheet
 #--------------------------------
 #creating ridge model for the number sheet in the xlsx file
-ridge_model_num = Ridge(alpha=100.0)
+ridge_model_num = Ridge()
 ridge_model_num.fit(x_train_num, y_train_num)
 y_predict_num = ridge_model_num.predict(x_test_num)
 

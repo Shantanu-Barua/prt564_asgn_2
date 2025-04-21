@@ -3,11 +3,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn.linear_model import Ridge, RidgeCV
+from sklearn.linear_model import Ridge
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
+from scipy import stats
 
 #load dataset
 full_df = pd.read_excel("AvianDataset.xlsx", sheet_name=['Number', 'Proportion'])
@@ -91,31 +92,55 @@ print("MAE: ", mae_num)
 
 #Visuals
 #-------
-#Predicted vs Actual proportion
-plt.figure(figsize=(8, 6))
-plt.scatter(y_test_num, y_predict_num, alpha=0.7)
-plt.plot([y_test_prop.min(), y_test_prop.max()], [y_test_prop.min(), y_test_prop.max()], 'r--')  # 45-degree line
+#Predicted vs Actual number --> Scatter plot
+plt.figure(figsize=(8,6))
+sns.scatterplot(x=y_test_num, y=y_predict_num, alpha=0.6, label='Predicted vs. Actual')
+#fit regression line for visuals
+slope, intercept, r_value, p_value, std_err = stats.linregress(y_test_num, y_predict_num)
+x_value_num = np.linspace(min(y_test_num), max(y_test_num), 100)
+y_value_num = slope * x_value_num + intercept
+plt.plot(x_value_num, y_value_num, color='pink', linestyle='--', label='Regression Line')
+#style plot
 plt.xlabel("Actual Total Deaths")
-plt.ylabel("Predicted Total Deaths")
-plt.title("Ridge Regression: Predicted vs Actual")
-plt.text(x=min(y_test_prop), y=max(y_test_prop)*0.9, 
-         s=f"R²: {r2_score(y_test_prop, y_predict_prop)}\nMAE: {mae_prop}\nMSE: {mse_prop}", 
+plt.ylabel("Predicted Toal Deaths")
+plt.title("Ridge Regression: Avtual vs Predicted Deaths (Number Sheet)")
+plt.legend()
+plt.text(x=min(y_test_num), y=max(y_test_num)*0.85, 
+         s=f"R²: {r2_score(y_test_num, y_predict_num)}\nMAE: {mae_num}\nMSE: {mse_num}", 
          bbox=dict(facecolor='white', alpha=0.6))
-plt.grid(True)
-plt.show()
-
-# #Predicted vs Actual num --> scatter plot
-
-
-# #Risidual plot num --> diagnose patterns and errors (scattered randomly means unbiased)
-
-
-#Deaths by season --> box plot
-plt.figure(figsize=(8, 6))
-sns.boxplot(data=number_df, x='Seasons', y='Total death')
-plt.title("Seasonal Variation in Deaths")
-plt.xlabel("Season (1=Winter, 2=Spring, 3=Summer, 4=Autumn)")
-plt.ylabel("Deaths")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
+
+#Predicted vs Actual Proportion --> Scatter plot
+plt.figure(figsize=(8,6))
+sns.scatterplot(x=y_test_prop, y=y_predict_prop, alpha=0.6, label='Predicted vs. Actual')
+#fit regression line for visuals
+slope, intercept, r_value, p_value, std_err = stats.linregress(y_test_prop, y_predict_prop)
+x_value_prop = np.linspace(min(y_test_prop), max(y_test_prop), 100)
+y_value_prop = slope * x_value_prop + intercept
+plt.plot(x_value_prop, y_value_prop, color='green', linestyle='--', label='Regression Line')
+#style plot
+plt.xlabel("Actual Total Deaths")
+plt.ylabel("Predicted Toal Deaths")
+plt.title("Ridge Regression: Avtual vs Predicted Deaths (Number Sheet)")
+plt.legend()
+plt.text(x=min(y_test_prop), y=max(y_test_prop)*0.85, 
+         s=f"R²: {r2_score(y_test_prop, y_predict_prop)}\nMAE: {mae_prop}\nMSE: {mse_prop}", 
+         bbox=dict(facecolor='white', alpha=0.6))
+plt.grid(True)
+plt.tight_layout()
+plt.show()
+
+#Risidual plot num --> diagnose patterns and errors (scattered randomly means unbiased)
+
+
+# #Deaths by season --> box plot
+# plt.figure(figsize=(8, 6))
+# sns.boxplot(data=number_df, x='Seasons', y='Total death')
+# plt.title("Seasonal Variation in Deaths")
+# plt.xlabel("Season (1=Winter, 2=Spring, 3=Summer, 4=Autumn)")
+# plt.ylabel("Deaths")
+# plt.grid(True)
+# plt.tight_layout()
+# plt.show()

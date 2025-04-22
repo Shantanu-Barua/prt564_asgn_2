@@ -1,0 +1,311 @@
+Age,Year,Month,Region,Death
+0-7 days,2012,5,Yorkshire and The Humber,0
+0-7 days,2012,6,Yorkshire and The Humber,0
+0-7 days,2012,7,East of England,1
+0-7 days,2012,8,South East,0
+0-7 days,2012,9,West Midlands,1
+0-7 days,2012,10,West Midlands,1
+Adult,2012,1,East of England,2
+Adult,2012,1,Scotland,0
+Adult,2012,1,South East,1
+Adult,2012,1,South West,0
+Adult,2012,1,Wales,0
+Adult,2012,1,West Midlands,0
+Adult,2012,1,Yorkshire and The Humber,0
+Adult,2012,2,East Midlands,0
+Adult,2012,2,East of England,0
+Adult,2012,2,Scotland,2
+Adult,2012,2,South East,0
+Adult,2012,2,South West,0
+Adult,2012,3,East of England,0
+Adult,2012,3,North West,0
+Adult,2012,3,Scotland,0
+Adult,2012,3,South East,0
+Adult,2012,3,South West,0
+Adult,2012,3,Wales,2
+Adult,2012,3,Yorkshire and The Humber,0
+Adult,2012,4,East Midlands,0
+Adult,2012,4,North West,0
+Adult,2012,4,Scotland,0
+Adult,2012,4,South East,2
+Adult,2012,4,South West,0
+Adult,2012,4,West Midlands,1
+Adult,2012,5,East Midlands,0
+Adult,2012,5,East of England,0
+Adult,2012,5,North West,0
+Adult,2012,5,Scotland,0
+Adult,2012,5,South West,0
+Adult,2012,5,Wales,0
+Adult,2012,5,Yorkshire and The Humber,0
+Adult,2012,6,East Midlands,0
+Adult,2012,6,East of England,2
+Adult,2012,6,South West,0
+Adult,2012,6,West Midlands,0
+Adult,2012,7,Scotland,0
+Adult,2012,7,South East,2
+Adult,2012,8,East Midlands,2
+Adult,2012,8,East of England,0
+Adult,2012,8,North West,0
+Adult,2012,8,Scotland,1
+Adult,2012,8,South East,2
+Adult,2012,8,South West,1
+Adult,2012,8,Wales,0
+Adult,2012,8,West Midlands,0
+Adult,2012,9,East Midlands,0
+Adult,2012,9,London,1
+Adult,2012,9,North East,0
+Adult,2012,9,North West,0
+Adult,2012,9,South West,0
+Adult,2012,9,Wales,1
+Adult,2012,10,East of England,2
+Adult,2012,10,North East,0
+Adult,2012,10,North West,0
+Adult,2012,10,Scotland,1
+Adult,2012,10,South East,1
+Adult,2012,10,South West,0
+Adult,2012,10,Wales,0
+Adult,2012,10,West Midlands,1
+Adult,2012,11,East Midlands,1
+Adult,2012,11,South East,0
+Adult,2012,11,South West,0
+Adult,2012,11,Wales,0
+Adult,2012,11,West Midlands,0
+Adult,2012,11,Yorkshire and The Humber,1
+Adult,2012,12,East Midlands,0
+Adult,2012,12,East of England,0
+Adult,2012,12,North West,1
+Adult,2012,12,South East,0
+Adult,2012,12,Wales,0
+Immature,2012,2,West Midlands,1
+Immature,2012,4,West Midlands,1
+Immature,2012,5,West Midlands,2
+Immature,2012,6,Scotland,6
+Immature,2012,7,Scotland,3
+Immature,2012,8,East of England,7
+Immature,2012,8,Scotland,2
+Immature,2012,8,South West,1
+Immature,2012,8,West Midlands,2
+Immature,2012,9,East Midlands,1
+Immature,2012,9,East of England,3
+Immature,2012,9,South East,1
+Immature,2012,10,Scotland,4
+Immature,2012,11,North West,1
+Immature,2012,11,West Midlands,1
+0-7 days,2013,1,West Midlands,1
+0-7 days,2013,2,West Midlands,1
+0-7 days,2013,9,Scotland,0
+0-7 days,2013,11,Scotland,1
+Adult,2013,1,South East,4
+Adult,2013,1,Yorkshire and The Humber,1
+Adult,2013,2,East of England,1
+Adult,2013,3,Scotland,2
+Adult,2013,4,North West,1
+Adult,2013,5,South West,2
+Adult,2013,6,North East,1
+Adult,2013,6,South West,1
+Adult,2013,7,North West,1
+Adult,2013,7,Scotland,1
+Adult,2013,7,South East,1
+Adult,2013,8,Scotland,1
+Adult,2013,8,South East,1
+Adult,2013,8,West Midlands,1
+Adult,2013,9,South West,2
+Adult,2013,10,East of England,1
+Adult,2013,10,Scotland,3
+Adult,2013,10,South East,1
+Adult,2013,11,East Midlands,2
+Adult,2013,12,Scotland,1
+Immature,2013,4,South East,1
+Immature,2013,5,West Midlands,1
+Immature,2013,6,North West,1
+Immature,2013,6,Scotland,8
+Immature,2013,6,West Midlands,1
+Immature,2013,7,East of England,1
+Immature,2013,7,Scotland,5
+Immature,2013,8,East of England,2
+Immature,2013,8,Scotland,8
+Immature,2013,9,East of England,3
+Immature,2013,9,Scotland,3
+Immature,2013,9,South West,1
+Immature,2013,9,Yorkshire and The Humber,1
+Immature,2013,10,Scotland,4
+Immature,2013,10,South East,2
+Immature,2013,11,Scotland,1
+Immature,2013,11,Wales,1
+Immature,2013,11,West Midlands,1
+Immature,2013,12,Scotland,2
+0-7 days,2015,5,North West,0
+0-7 days,2015,9,Wales,0
+Adult,2015,1,East of England,1
+Adult,2015,3,Yorkshire and The Humber,1
+Adult,2015,4,East Midlands,2
+Adult,2015,5,West Midlands,1
+Adult,2015,7,East of England,1
+Adult,2015,7,London,2
+Adult,2015,10,North West,1
+Immature,2015,1,East of England,1
+Immature,2015,4,Scotland,3
+Immature,2015,7,East Midlands,1
+Immature,2015,9,Scotland,1
+0-7 days,2016,1,Scotland,1
+0-7 days,2016,3,Scotland,3
+0-7 days,2016,4,Scotland,1
+0-7 days,2016,5,Scotland,1
+0-7 days,2016,6,Scotland,0
+0-7 days,2016,8,South West,0
+0-7 days,2016,9,Scotland,1
+0-7 days,2016,11,Scotland,1
+Adult,2016,1,South East,1
+Adult,2016,2,North West,1
+Adult,2016,3,North West,1
+Adult,2016,7,Scotland,1
+Adult,2016,8,Scotland,1
+Adult,2016,10,Yorkshire and The Humber,1
+Immature,2016,3,Scotland,2
+Immature,2016,5,Scotland,1
+Immature,2016,6,North West,1
+Immature,2016,6,Scotland,2
+Immature,2016,8,South West,1
+Immature,2016,10,South East,1
+Immature,2016,11,Scotland,2
+Immature,2016,12,Scotland,1
+0-7 days,2014,1,West Midlands,1
+0-7 days,2014,5,Scotland,0
+0-7 days,2014,5,West Midlands,1
+0-7 days,2014,10,Scotland,0
+Adult,2014,1,Wales,2
+Adult,2014,2,Scotland,2
+Adult,2014,4,Wales,1
+Adult,2014,5,Wales,1
+Adult,2014,6,Scotland,1
+Adult,2014,8,East of England,1
+Adult,2014,11,Wales,1
+Immature,2014,1,Scotland,1
+Immature,2014,1,South West,1
+Immature,2014,2,Scotland,1
+Immature,2014,5,West Midlands,1
+Immature,2014,7,Scotland,1
+Immature,2014,8,Scotland,1
+0-7 days,2017,1,Scotland,2
+0-7 days,2017,3,Scotland,1
+0-7 days,2017,4,Scotland,2
+0-7 days,2017,8,Scotland,6
+0-7 days,2017,9,Scotland,1
+0-7 days,2017,10,Scotland,2
+Adult,2017,2,East of England,1
+Adult,2017,2,Scotland,1
+Adult,2017,6,East of England,1
+Adult,2017,6,South West,1
+Adult,2017,9,Scotland,2
+Adult,2017,9,South West,1
+Adult,2017,10,South West,1
+Adult,2017,10,Wales,2
+Immature,2017,1,Scotland,2
+Immature,2017,2,Scotland,3
+Immature,2017,3,Scotland,3
+Immature,2017,4,Scotland,5
+Immature,2017,7,Scotland,6
+Immature,2017,8,Scotland,2
+Immature,2017,9,Scotland,1
+Immature,2017,11,Scotland,1
+0-7 days,2018,3,Scotland,0
+0-7 days,2018,9,South West,0
+Adult,2018,1,Scotland,1
+Adult,2018,3,North West,1
+Adult,2018,3,South West,1
+Adult,2018,4,East of England,1
+Adult,2018,4,Scotland,1
+Adult,2018,4,South West,1
+Adult,2018,7,East of England,1
+Adult,2018,7,Wales,2
+Adult,2018,8,Scotland,3
+Adult,2018,8,West Midlands,1
+Adult,2018,9,South West,2
+Adult,2018,10,Scotland,1
+Adult,2018,12,South West,1
+Immature,2018,8,Scotland,1
+Immature,2018,12,West Midlands,3
+0-7 days,2020,7,South West,1
+0-7 days,2020,7,Scotland,2
+Adult,2020,6,Yorkshire and The Humber,2
+Adult,2020,8,East of England,3
+Adult,2020,8,South West,2
+Adult,2020,9,London,1
+Adult,2020,9,Scotland,1
+Adult,2020,10,Scotland,1
+Adult,2020,10,South West,1
+Adult,2020,11,London,1
+Adult,2020,11,South West,1
+Adult,2020,12,Scotland,1
+0-7 days,2021,4,West Midlands,0
+0-7 days,2021,10,Scotland,1
+Adult,2021,1,Scotland,1
+Adult,2021,2,East of England,1
+Adult,2021,2,South West,1
+Adult,2021,3,North West,1
+Adult,2021,5,East of England,1
+Adult,2021,5,Scotland,3
+Adult,2021,5,South East,1
+Adult,2021,5,West Midlands,1
+Adult,2021,6,East of England,1
+Adult,2021,6,South West,1
+Adult,2021,6,West Midlands,2
+Adult,2021,7,East of England,1
+Adult,2021,7,Scotland,1
+Adult,2021,7,Wales,1
+Adult,2021,7,West Midlands,3
+Adult,2021,8,East of England,2
+Adult,2021,8,Scotland,1
+Adult,2021,8,South West,1
+Adult,2021,9,East of England,1
+Adult,2021,9,North West,1
+Adult,2021,9,Scotland,1
+Adult,2021,9,Wales,1
+Adult,2021,9,West Midlands,1
+Adult,2021,10,Scotland,2
+Adult,2021,11,East of England,1
+Adult,2021,12,East of England,1
+Adult,2021,12,Scotland,1
+Immature,2021,8,Yorkshire and The Humber,1
+Immature,2021,9,Wales,1
+Immature,2021,12,Wales,1
+0-7 days,2022,4,East of England,1
+Adult,2022,4,South West,1
+Adult,2022,4,Wales,1
+Adult,2022,6,East of England,1
+Adult,2022,6,Scotland,1
+Adult,2022,6,Yorkshire and The Humber,1
+Adult,2022,7,East of England,3
+Adult,2022,8,East of England,3
+Adult,2022,10,Scotland,2
+Adult,2022,11,South West,1
+Adult,2022,11,Wales,1
+Adult,2022,12,South West,2
+0-7 days,2023,5,North West,0
+0-7 days,2023,11,Wales,1
+Adult,2023,3,East of England,4
+Adult,2023,5,East Midlands,1
+Adult,2023,5,East of England,1
+Adult,2023,7,Scotland,1
+Adult,2023,8,North West,1
+Adult,2023,8,Wales,3
+Adult,2023,9,East of England,1
+Adult,2023,11,South West,1
+Immature,2023,7,South West,1
+Adult,2019,6,South West,1
+Adult,2019,7,East of England,2
+Adult,2019,11,Scotland,2
+Adult,2019,12,Yorkshire and The Humber,2
+Immature,2019,2,East of England,1
+Adult,2024,2,East of England,1
+Adult,2024,3,Wales,2
+Adult,2024,4,East of England,2
+Adult,2024,7,East of England,1
+Adult,2024,7,Wales,5
+Adult,2024,8,East of England,2
+Adult,2024,9,Scotland,1
+Adult,2024,10,Wales,2
+Adult,2024,12,East of England,2
+Immature,2024,3,East Midlands,1
+Immature,2024,5,East Midlands,5
+Immature,2024,9,East Midlands,1
